@@ -20,8 +20,8 @@ const InputTodo = () => {
   return (
     <Fragment>
       <h1 className='text-center mt-5'>Pern Todo List</h1>
-      <h2 className='mt-5'>Add todo</h2>
-      <form className='d-fle' onSubmit={onSubmitForm}>
+      <h2 className=''>Add todo</h2>
+      <form className='d-flex' onSubmit={onSubmitForm}>
         <input 
           type='text' 
           className='form-control'
